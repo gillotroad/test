@@ -8,8 +8,9 @@
 <body>
     <h1>
       <script type="text/javascript">
-        const paramlong = urlParams.get('long');
-        document.write(paramlong);
+        const searchParams = new URLSearchParams(window.location.search);
+        
+        document.write(searchParams.get('long'));
       </script>
     </h1>
 </body>
