@@ -1,3 +1,3 @@
-const firstparam = urlParams.get('long')
+const firstparam = urlParams.get('long');
 
-document.write(firstparam)
+document.write(firstparam);
